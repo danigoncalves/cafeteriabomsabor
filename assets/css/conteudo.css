@@ -1,0 +1,92 @@
+*{
+    margin: 0; padding: 0;
+}
+.conteudo{
+    /*width: 100%;
+    height: auto;*/
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.conteudo-titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.titulo{
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto-descricao{
+    font-size: 17px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box-conteudo{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.img{
+    box-sizing: border-box;
+    width: 600px;
+    padding: 20px;
+
+}
+.img-sabores{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+/* lista imagens*/
+.conteudo-p{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+
+    }
+.lista-imagem{
+    padding-top: 50px;
+    width: 449px;
+    padding-bottom: 50px;
+}
+
+.imagem-lista{
+    width: 100%;
+}
+
+/*css cafe*/
+
+.cardapio{
+    width: 400px;
+    padding-bottom: 70px;
+}
+.imagem-cardapio{
+    width: 90%;
+    padding: 5px;
+}
+.titulo-cardapio{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: 27px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.nome-produto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+

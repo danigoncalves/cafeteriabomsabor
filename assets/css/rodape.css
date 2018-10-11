@@ -1,0 +1,26 @@
+.rodape{
+    background: #4e1c1c;
+    padding: 30px;
+}
+
+.lista-informacao{
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo-site-rodape{
+    color: white;
+    font-size: 25px;
+    font-family: 'Charmonman', cursive;
+
+}
+
+.cabecalho-rodape{
+    background: #4e1c1c;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 60px;
+    justify-content: space-between;
+
+}

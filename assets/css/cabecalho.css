@@ -1,0 +1,47 @@
+*{
+    margin: 0; padding: 0;
+}
+
+.titulo-site{
+    color: white;
+    font-size: 14;
+    font-family: 'Charmonman', cursive;
+    padding-top: 10px;
+
+}
+
+.cabecalho{
+    background-image: linear-gradient(to bottom, #5e3f3f, #643a3a, #6a3434, #6f2f2e, #732828); display: flex;
+    flex-direction: row;
+    padding: 0px 60px;
+    justify-content: space-between;
+
+}
+
+.menu{
+background-image: linear-gradient(to bottom, #5e3f3f, #643a3a, #6a3434, #6f2f2e, #732828);
+}
+
+.menu > div > ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu > div > ul > li{
+    padding: 30px;
+    padding-top: 30px;
+
+}
+
+.menu-link{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imagem-logo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
